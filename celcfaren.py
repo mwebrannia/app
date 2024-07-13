@@ -1,6 +1,7 @@
-import streamlit as st
+import streamlit as st #import streamlit right after installing it to the system
 
-st.header('''Temperature Conversion App''')
+st.header('''Temperature Conversion App''') #Head / App title
+
 #Converting temperature to Fahrenheit 
 st.write('''Slide to convert Celcius to Fahrenheit''')
 value = st.slider('Temperature in Celcius')
